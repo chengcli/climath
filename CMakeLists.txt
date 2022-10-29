@@ -5,6 +5,7 @@
 #
 # Define the following variables
 #
+#   CLIMATH_FOUND
 #   CLIMATH_INCLUDE_DIR
 #   CLIMATH_LIBRARY_DEBUG
 #   CLIMATH_LIBRARY_RELEASE
@@ -46,4 +47,6 @@ endforeach()
 set(CLIMATH_INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR} 
   CACHE PATH 
   "climath include directory")
+set(CLIMATH_FOUND TRUE)
 mark_as_advanced(CLIMATH_INCLUDE_DIR)
+mark_as_advanced(CLIMATH_FOUND)
