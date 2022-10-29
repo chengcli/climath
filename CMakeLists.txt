@@ -47,6 +47,6 @@ endforeach()
 set(CLIMATH_INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR} 
   CACHE PATH 
   "climath include directory")
-set(CLIMATH_FOUND TRUE)
+set(CLIMATH_FOUND TRUE CACHE BOOL "FIND CLIMATH LIBRARY")
 mark_as_advanced(CLIMATH_INCLUDE_DIR)
 mark_as_advanced(CLIMATH_FOUND)
