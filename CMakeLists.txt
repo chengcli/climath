@@ -22,6 +22,7 @@ project(
   LANGUAGES C
   )
 set(CMAKE_C_STANDARD 99)
+message(STATUS "")
 message(STATUS "== Setting up climath library ==")
 
 file(GLOB _src_files
